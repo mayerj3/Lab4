@@ -2,7 +2,8 @@ import java.util.Random;
 class Main {  
   public static void main(String[] args) {
     Random r = new Random();
-    System.out.println(r.nextInt(51));
-    System.out.println("Hello world!");
+    int randomNum = r.nextInt(51);
+    System.out.println("The Random number is:" + randomNum);
+    
   }
 }
